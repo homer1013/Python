@@ -15,7 +15,7 @@ thing = input()
 
 answer = input("Question 2. What is the two letter symbol for the element Gold?\n")
 
-if answer == "Au" or "AU" or "au":
+if answer == "Au" or answer == "AU" or answer == "au":
 	print("That's Correct!")
 else:
 	print("I'm sorry, that's not correct")
