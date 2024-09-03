@@ -1,3 +1,5 @@
+# Homer's Trivia Game
+
 # ANSI color codes
 RESET = "\033[0m"
 GREEN = "\033[92m"
@@ -7,11 +9,11 @@ BLUE = "\033[94m"
 
 user_wins = 0
 
-print(BLUE + "Hello! Welcome to The Game\n\n" + RESET)
+print(BLUE + "***** Hi!!! *****\n***** Welcome Homer's Trivia Game *****\n\n" + RESET)
 
-user_name = input("What is your name?\n")
+user_name = input("What's your name?\n")
 
-print("\nThanks for choosing to play today, " + GREEN + user_name + RESET + "\n")
+print("\nThanks for playing, " + GREEN + user_name + RESET + "!\n")
 
 while True:
     # Question 1
