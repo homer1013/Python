@@ -9,7 +9,7 @@ BLUE = "\033[94m"
 
 user_wins = 0
 
-print(BLUE + "***** Hi!!! *****\n***** Welcome Homer's Trivia Game *****\n\n" + RESET)
+print(BLUE + "***** Hi!!! *****\n***** Welcome to Homer's Trivia Game *****\n\n" + RESET)
 
 user_name = input("What's your name?\n")
 
