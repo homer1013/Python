@@ -11,7 +11,7 @@ user_wins = 0
 
 print(BLUE + "***** Hi!!! *****\n***** Welcome Homer's Trivia Game *****\n\n" + RESET)
 
-user_name = input("What's your name?\n")
+user_name = input("What's to your name?\n")
 
 print("\nThanks for playing, " + GREEN + user_name + RESET + "!\n")
 
